@@ -17,6 +17,7 @@ overlay.style.cssText = `
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://cdn.jsdelivr.net/gh/shafoonahangar/aafes/star.png';
+svgImage.width = 80;
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
